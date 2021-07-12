@@ -1,0 +1,24 @@
+{
+  "name": "graphqlapi",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js -p $PORT"
+  },
+  "dependencies": {
+    "apollo-datasource": "^0.9.0",
+    "apollo-server": "^2.25.1",
+    "apollo-server-express": "^2.25.1",
+    "body-parser": "^1.19.0",
+    "casual": "^1.6.2",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-rate-limit-directive": "^1.3.0",
+    "graphql-tools": "^4.0.8",
+    "graphql-validation-complexity": "^0.4.2",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.7"
+  }
+   
+}

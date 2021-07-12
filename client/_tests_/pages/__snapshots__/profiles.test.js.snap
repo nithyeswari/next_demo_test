@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tesing Profile Profile component should match snapshot generated 1`] = `
+<div
+  className="card"
+>
+  <h2
+    data-cy="profile"
+  >
+    testuser
+     
+  </h2>
+  <p>
+    Address not found!
+  </p>
+</div>
+`;
+
+exports[`Tesing Profiles Profile component should match snapshot generated 1`] = `
+<div
+  className="grid"
+>
+   
+  <div
+    className="card"
+  >
+    <h2
+      data-cy="profile"
+    >
+      testuser
+       
+    </h2>
+    <p>
+      Address not found!
+    </p>
+  </div>
+</div>
+`;

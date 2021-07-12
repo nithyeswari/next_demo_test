@@ -1,0 +1,21 @@
+version: "3" 
+services:
+  web:
+    ports:
+      - 3000:3000
+    container_name: web
+    build:
+      context: client
+      dockerfile: Dockerfile
+    stdin_open: true 
+    volumes:  
+       - ./client:/app 
+  worker:
+    ports:
+      - 4000:4000
+    container_name: worker
+    build:
+      context: server
+      dockerfile: Dockerfile  
+    
+    
