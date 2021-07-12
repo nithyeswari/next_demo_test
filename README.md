@@ -1,3 +1,4 @@
+Simple Next JS application to display some random user data from Graph QL.
 
 ## Running Locally
    
